@@ -4,16 +4,28 @@
 ## Installation
 
 ```sh
-$ npm install --save macos-defaults-setup-cli
+$ npm install --global macos-defaults-setup-cli
 ```
 
 ## Usage
 
-```js
-var macosDefaultsSetupCli = require('macos-defaults-setup-cli');
-
-macosDefaultsSetupCli('Rainbow');
+```sh
+macos-defaults-setup <file1.json> <file2.json> ...
 ```
+
+##Roadmap 
+- add options to skip argument type detection 
+    - --json-file
+    - --obj
+    - --ldjson-file
+    - --json
+    - --csv-file
+    - --xml
+- --skip-invalid
+- --verbose
+- --help 
+- add shorthand/common typos (nopt)
+ 
 ## License
 
 MIT © [tarran](tarranjones.com)
