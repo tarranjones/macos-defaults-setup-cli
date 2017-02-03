@@ -20,6 +20,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "macos-defaults-setup": "^0.1.0"
+    "macos-defaults-setup": "^0.3.0"
   }
 }
